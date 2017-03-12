@@ -1,0 +1,26 @@
+/ Page Content
+/ Blog Entries Column
+%h1.page-header
+  Silver Buyers of NYC
+  %br
+  %small Silver Coins | Silver Jewelry | Silver
+/ First Blog Post
+- @posts.first(5).each do |post|
+  %h2
+    %span 
+      = post.title
+  %p.lead
+    %span 
+      = post.second_title
+  %hr/
+  %img.img-responsive{:alt => "#{post.img_alt}", :src => "/#{post.img_url}"}/
+  %hr/
+  %p 
+    = post.description
+  = link_to "Read More", show_post_path(post.second_title) ,class: "btn btn-primary"
+%hr
+%p
+  = "At Sell My Silver NYC, we are committed to our goal of providing you, our client, with the best prices for your silver that you cannot obtain elsewhere. Give us a call now for a free appraisal appointment and our knowledgeable staff will guide you through a secure, private transaction. We guarantee you will receive optimal pricing in cash for your silver."
+%p
+  = "*If your have not found your item(s) or brand(s) here, don’t worry, just give us a call, we will do our best to help you. We Always Pay More!"
+  
