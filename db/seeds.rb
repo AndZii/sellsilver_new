@@ -12,75 +12,64 @@ posts.each do |post|
    post.destroy.save unless post.nil?
 end    
 
+#Electronics
 Post.create(
     #
-    title: "Cash For Silver In NYC", 
+    title: "Cash For Electronics Staten Island", 
     #
-    second_title: "Top Rated Silver Buyer in New York City Area", 
+    second_title: "Top Rated Buyer of Electronics in NYC", 
     #
-    url: "silver-buyer-of-nyc-queens",
+    url: "electronics-buyer-of-nyc-staten-island",
     #
-    description: "Sell My Silver NYC is one of New York City’s largest and leading silver buyers. We buy all kinds of silver items with guaranteed payouts ranked as the highest in the industry. Our experienced and well qualified staff will appraise your silver jewelry, silver bullion, silver flatware and more at top-tier dollar amounts and give you cash for your silver, on the spot. We buy silver at any quantity, be it a silver ring, a few silver coins or an entire silver jewelry collection. We pay a premium for your silver on the spot and treat every transaction with utmost care and security so you can rest assured, you are getting top dollar on your sale. For a free appraisal, please fill out the form below or call us right now at (718) 846-1600 for an appointment to a no-cost silver appraisal at our Manhattan office..",
+    description: "WeBuyGoods.nyc is one of New York City’s largest and leading electronic buyers. We buy all kinds of brand new and pre-owned items with guaranteed payouts ranked as the highest in the industry. We buy all Apple products (iPhones, iPads, MacBooks, iMacs, MacPro computers and apple watches), Samsung (Galaxy S Phones, Note Phones, tablets etc), digital cameras (Canon, Nikon, Sony, Leica etc), computers (Microsoft Surface, HP, Lenovo, Asus, Acer, Huawei etc), hi-end Headphones (Beats, Bose, Sony etc), game consoles (Playstation, X-Box, Nintendo), action camers (GoPro), DJ equipment etc. ",
     #
-    img_alt: "Manhattan Silver Buyer | Sell My Sylver NYC",
+    img_alt: "Staten Island Electronic Buyer | Sell Your Unwanted Electronics For Top Cash",
     #
-    img_url: "ph.jpg",
+    img_url: "electronics.jpg",
     #
-    post_body: "We will buy your used, broken or unwanted: silver coins, silver chains, silver bracelets, silver necklaces, silver rings, silver earrings, silver links, silver medallions, silver antiques, silver coffee and tea sets, silver flatware & holloware, sterling silver settings, antique silver estate servers, silver souvenir spoons, antique vintage sterling silver, silver candelabra, silver candlesticks, silver bullion rounds, silver bullion bars, silver bullion ingots, fine silver, junk silver etc.",
-    page_title: "Silverware Buyers in NJ & NY - We Buy Silver - Free Appriasal",
-    page_desc: "http://sellmysilvernyc.com is the largest buyers of all kinds of silver items in New York. We buy  silver coins, silver jewelry, silver bullion, Sterling Silver. Silver Buyers of NYC",
-    page_keys: "Silver, Sell, Buy, Trade, Sterling, Coin, Coins, Jewelry")
+    post_body: "We will buy your new, used, broken or unwanted items. If you have something to sell, call us before try any other options. We provide save, fast, secure and conviniant way to sell your electronic items. No strangers in creepy places. Stay out of troubles - call WeBuyGoods.nyc",
+    page_title: "Electronic Buyers of NYC - Staten Island",
+    page_desc: "http://webuygoods.com is the largest buyers of all kinds of electronic items in Staten Island. We buy iphones, ipads, macbooks, samsung galaxy, playstation, x-box etc.",
+    page_keys: "iphone, ipad, macbook, imac, samsung, canon, nikon, microsoft, hp, linovo, cash, sell, playstation, nintendo")
+
+# Silver, Gold, Diamonds, jewelry
+Post.create(
+    #
+    title: "Cash For Silver, Gold and Diamonds in NYC - Staten Island", 
+    #
+    second_title: "Top Rated Silver Buyer in New York City Area | Staten Island", 
+    #
+    url: "silver-diamonds-gold-buyer-of-nyc-staten-island",
+    #
+    description: "If you are looking for the best deal to sell your diamonds, gold, silver or jewelry look no further. We are the best in the business. You are guranteed the best price for your items. Selling your diamonds, gold, silver has never been more simple. You are welcomed to come in or simply call us to get a quote and we will guarantee the most out of your items that you want to sell. We buy all diamonds, gold, silver and jewelry whether it is an old enganment ring or simply a pair of old gold earrings we will buy it. Please feel free to call us at anytime for any inquries you may have. We gurantee 100% customer satisfaction.",
+    #
+    img_alt: "Staten Island Silver, Gold, Diamonds Buyer | Sell My Sylver, Gold, Diamonds NYC",
+    #
+    img_url: "diamonds.jpg",
+    #
+    post_body: "We will buy your used, broken or unwanted: diamonds, diamond rings, diamond earrigns, silver coins, silver chains, silver bracelets, silver necklaces, silver rings, silver earrings, enganment ring, gold rings, silver links, silver medallions, silver antiques, silver coffee and tea sets, silver flatware & holloware, sterling silver settings, antique silver estate servers, silver souvenir spoons, antique vintage sterling silver, silver candelabra, silver candlesticks, silver bullion rounds, silver bullion bars, silver bullion ingots, fine silver, junk silver etc.",
+    page_title: "Diamond, Gold, Silver Buyers in Staten Island - We Buy jewelry - Free Appriasal",
+    page_desc: "http://webuygoods.nyc is the largest buyers of all kinds of diamond, silver and gold items in New York. We buy coins, jewelry, bullion, Sterling Silver, gols, diamonds. Gold Buyers of Staten Island",
+    page_keys: "Gold, Diamonds, Ring, Earring, Silver, Sell, Buy, Trade, Sterling, Coin, Coins, Jewelry")
 
 Post.create(
     #
-    title: "Top Dollar For Silver In NYC | Queens", 
+    title: "Top Dollar For Handbags, Purses and Accessories In NYC | Staten Island", 
     #
-    second_title: "Sell My Sterling Silver In NYC", 
+    second_title: "Sell My Handbags, Purses and Accessories in Staten Island", 
     #
-    url: "Sell Sterling Silver In NYC | Queens",
+    url: "sell-handbags-purses-accessories-nyc-staten-island",
     #
-    description: "Sterling silver and silver are often described as the same thing. Sterling silver is only an alloy containing 92.5% of fine silver with the remaining 7.5 to 8% from other metals like copper, steel or iron added to stabilize its shape. Because of the high percentage of silver in “pure silver”, it is too soft and cannot hold its shape when making various utensils like forks, knives, spoons, coffee sets and many others. Fine silver is composed of 99.9% pure silver and is used only in silver bullion bars, bullion rounds, and fine jewelry. At Sell My Silver NYC, we buy all types and grades of silver.",
+    description: "If you are looking to sell your handbag, purse or any kind of branded accessories, you are on the right page. Top cash on the spot or consignment, we are #1 in this business. Satisfaction garantied. Call right now and get your top dollar. We buy all handbags and accessoris (Louis Vuitton, Gucci, Chanel, Dior, Prada, Hermes etc ...). New, old, vintage, broken. If your handbag worth something, you will get it, no exceptions.",
     #
-    img_alt: "Brooklyn Silver Buyer | Sell My Sylver NYC",
+    img_alt: "Sell Handbags in Staten Island | Handbag Buyer of NYC",
     #
-    img_url: "ph-3.jpg",
+    img_url: "handbags.jpg",
     #
-    post_body: "We buy used, Broken or Unwanted Silver Coins, Silver Chains, Silver Bracelets, Silver Necklaces, Silver Rings,  Silver Earrings, Silver Links etc. Call us right now, and we will give you full information.",
-    page_title: "Sell Silver | Silver Buyers of New York | Sell Coins",
-    page_desc: "Sell your antique silver, selling sterling silver. selling flatware sets and tea sets. Silver, Sell Estate Sterling Silver, Where to Sell Silver in New York City.",
-    page_keys: "Silver, Sell, Buy, Trade, Sterling, Coin, Coins, Jewelry")
-
-    Post.create(
-    #
-    title: "Sell Your Silverware and Household Silver", 
-    #
-    second_title: "Silver Buyer | Top Dollar For Silver In New York", 
-    #
-    url: "Sell Silverware Silver In NYC | Queens",
-    #
-    description: "Household silver or silverware (the silver, the plate, or silver service) includes tableware, cutlery and other household items made of sterling silver, Britannia silver or Sheffield plate silver. Silver is sometimes bought in sets or combined to form sets, such as a set of silver candlesticks or a silver tea set.",
-    #
-    img_alt: "Queens Silver Buyer | Sell My Sylver NYC",    
-    #
-    img_url: "ph-2.jpg",
-    #
-    post_body: "We buy: Silver Forks, Silver Knifes, Silver Trays etc. Almost all brands, like: Dominick & Haff, Durgin, Richard Dimes, Reed & Barton,Watson-Wallace, Watson, Weidlich, Westmorland, Whiting div. of Gorham, W&D Graff etc. We always pay more, call us right now.",
-    page_title: "SELL SILVER NYC | JEWELRY BUYERS OF NYC | RATED #1 FOR TOP CASH",
-    page_desc: "Sell Silver NYC | We pay more than any pawn shop and jewelry store! Bars, Silverware, Coins, Jewelry, Rings, Watches, Designer Items",
-    page_keys: "Silver, Sell, Buy, Trade, Sterling, Coin, Coins, Jewelry")
-
-
-    Post.create(
-        title: "Sell Silver Coins in NYC | Queens",
-        second_title: "Silver Coins Buyer | Top Dollar Paid For Silver In NYC",
-        url: "sell-selver-coins-nyc-queens",
-        description: "How are silver coins valued? The best way to calculate the value of junk silver coins and other silver pieces is to determine the amount and grade of fine silver each piece contains. Then we figure out the intrinsic value by checking current market values of the precious metal. In addition, a number of other factors are carefully taken into consideration during appraisal to get you the highest possible value for your silver—age, rarity, condition, collectability, quantity and more.",
-        img_alt: "Bronx Silver Buyer | Sell My Sylver NYC",
-        img_url: "ph-1.jpg",
-        post_body: "Junk Silver are coins minted by the U.S. government before 1965 that contain silver. The term “junk” refers to any silver piece of currency that is still in acceptable condition. While not entirely made of pure silver, junk coins can contain a silver composition ranging between 35% and 90%. These silver coins include: 1916 - 1945 Mercury Dimes, 1945 - 1964 Roosevelt Dimes, 1932 - 1964 Washington Quarters, 1916 - 1947 Walking Liberty Half Dollars, 1948 - 1963 Franklin Half Dollars, 1964 Kennedy Half Dollars, 1878 - 1921 Morgan Dollars, 1921 - 1935 Peach Dollars.",
-        page_title: "Sell Silver In NYC With Us And Get The Most Cash",
-        page_desc: "Silver Buyers of New York is the highest cash for silver buyer in NY. We are located in New York and buy silver coins, bars, jewelery, silver flatware.",
-        page_keys: "Silver, Sell, Buy, Trade, Sterling, Coin, Coins, Jewelry")
+    post_body: "* Please call us to schedule an appointment and bring your items to the store, estimates based on oral description or pictures are not accurate. You can always leave your item on consignment.",
+    page_title: "Handbag Buyers of NYC | Sell Handbags in Staten Island",
+    page_desc: "Top Rated Handbag Buyer of Staten Island | NYC. Where To sell My handbag - WeBuyGoods.nyc",
+    page_keys: "Handbag, Purse, Louis Vuitton, Chanel, Gucci, Dior, Hermes, Fendi, Cash, Sell")
 
 
 
